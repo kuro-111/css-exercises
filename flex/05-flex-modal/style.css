@@ -20,6 +20,20 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 5px;
+
+}
+
+.grandp {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.imcon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .icon {
@@ -33,7 +47,26 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 10px;
+  
+
 }
+
+.mama {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: start ;
+  gap: 12px;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+ 
 
 .close-button {
   background: #eee;
@@ -46,6 +79,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  margin: 8px;
+
 }
 
 button {
